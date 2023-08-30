@@ -1,0 +1,41 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Poppins", sans-serif;
+    background-image: linear-gradient(120deg, #f6d365, #d88771);
+  }
+  
+  .container {
+    width: 70%;
+    margin: auto;
+    height: 100vh;
+    background: lightblue;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .top{
+      width: 80%;
+      height: 200px;
+      background: red;
+      align-self: center;
+  }
+
+  .center{
+    width: 80%;
+    height: 200px;
+    background: greenyellow;
+    align-self: center;
+    flex: 1;
+}
+
+.footer{
+    width: 80%;
+    height: 200px;
+    background: blue;
+    align-self:center;
+}
